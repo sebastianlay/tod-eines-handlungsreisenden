@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>tod_eines_handlungsreisenden</RootNamespace>
+    <Authors>Sebastian Lay</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BAMCIS.GeoCoordinate" Version="1.0.2" />
+    <PackageReference Include="CsvHelper" Version="15.0.5" />
+    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.20303.1" />
+  </ItemGroup>
+
+</Project>

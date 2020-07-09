@@ -1,0 +1,26 @@
+# Solution
+
+Shortest route length: 2331,95 km
+
+Ismaning/München (Hauptsitz) (1)
+-> Ingolstadt (12)
+-> Nürnberg (16)
+-> Stuttgart (20)
+-> St. Georgen (19)
+-> Bretten (4)
+-> Walldorf (21)
+-> Frankfurt (8)
+-> Köln/Hürth (13)
+-> Düsseldorf (6)
+-> Essen (7)
+-> Münster (15)
+-> Lingen (Ems) (14)
+-> Schortens/Wilhelmshaven (18)
+-> Hamburg (10)
+-> Hannover (11)
+-> Braunschweig (3)
+-> Berlin (2)
+-> Görlitz (9)
+-> Chemnitz (5)
+-> Passau (17)
+-> Ismaning/München (Hauptsitz) (1)
