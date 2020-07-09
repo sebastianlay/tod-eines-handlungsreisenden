@@ -1,18 +1,18 @@
 # Tod eines Handlungsreisenden
 
-This is a C# implementation of the Held-Karp algorithm for solving the travelling salesman problem as part of the [get int {IT} coding challenge](https://www.get-in-it.de/coding-challenge).
+This is a C# implementation of the [Held-Karp algorithm](https://en.wikipedia.org/wiki/Held–Karp_algorithm) for solving the travelling salesman problem as part of the [get int {IT} coding challenge](https://www.get-in-it.de/coding-challenge).
 
 ## Installation
 
 ### Windows
 
 - Download and install the [.NET Core 3.1 Runtime](https://download.visualstudio.microsoft.com/download/pr/d97cfaf4-b17f-46c7-9a11-7f0d25dfd8b0/f76d4fce8e38b289efb9403aab0a0c9f/dotnet-runtime-3.1.5-win-x64.exe)
-- Download the [Windows version of the application]() from the releases and extract the content
+- Download the [Windows version of the application](https://github.com/sebastianlay/tod-eines-handlungsreisenden/releases/download/1.0.0/tod-eines-handlungsreisenden-win-x64.zip) from the releases and extract the content
 
 ### Linux
 
 - Download and install the [.NET Core 3.1 Runtime](https://docs.microsoft.com/de-de/dotnet/core/install/linux)
-- Download the [Linux version of the application]() from the releases and extract the content
+- Download the [Linux version of the application](https://github.com/sebastianlay/tod-eines-handlungsreisenden/releases/download/1.0.0/tod-eines-handlungsreisenden-linux-x64.zip) from the releases and extract the content
 
 ## Usage
 
@@ -40,3 +40,8 @@ This application uses the following libraries:
 - [CsvHelper](https://joshclose.github.io/CsvHelper/) for reading and mapping the content of a CSV file
 - [BAMCIS GeoCoordinate](https://github.com/bamcis-io/GeoCoordinate) for calculating the distance between two locations
 - [System.CommandLine.DragonFruit](https://github.com/dotnet/command-line-api) for parsing the command line arguments
+
+## Solution
+
+The Held-Karp algorithm is an obvious choice for this problem since it is way faster than brute forcing and guarantees to get the optimal solution.
+The solution for this particular CSV file can be found [in a separate file](https://github.com/sebastianlay/tod-eines-handlungsreisenden/blob/1.0.0/solution.md).
